@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <meta name="author" content="Dominguez Lavezzari Cristian">
+        <meta name="keywords" content="html,imagenes,videos">
+        <meta name="description" content="Evaluacion final fundamentos basicos de html">
+        <title>Curriculum Vitae</title>
+    </head>
+    <body>
+        <header>
+          <svg width="750px" height="180px">
+                <image xlink:href="img/logo.svg" width="700px" height="900px" x="0px" y="0px"></image>
+          </svg>
+            <h1>Curriculum Vitae</h1>
+        </header>
+        <section>
+            <article>
+                <h2>Datos Personales</h2>
+                <h3><strong>Nombres: </strong>Cristian Gabriel.</h3>
+                <h3><strong>Apellidos: </strong>Dominguez Lavezzari.</h3>
+                <h3><strong>Fecha de nacimiento: </strong>24 de enero de 1997.</h3>
+                <h3><strong>Lugar de nacimiento: </strong>Buenos Aires,Punta Alta, Argentina.</h3>
+            </article>
+        </section>
+        <nav>
+            <ul>
+                <li><a href="index.html" target="_blank">Inicio</a></li>
+                <li><a href="educacion.html" target="_blank">Educación</a></li>
+                <li><a href="experiencia.html" target="_blank">Experiencia</a></li>
+            </ul>
+        </nav>
+        <section>
+            <h2>Educación</h2>
+            <article>
+                <table border="1" cellpadding="10" cellspacing="0">
+                    <tr>
+                        <th>Año</th>
+                        <th>Institución</th>
+                        <th>Lugar</th>
+                        <th>¿Culminó?</th>
+                    </tr>
+                    <tr>
+                        <td>2014</td>
+                        <td>Esc.de educacion secundaria n°7 Domingo F.Sarmiento</td>
+                        <td>San Miguel,Buenos Aires</td>
+                        <td>Si</td>
+                    </tr>
+                    <tr>
+                        <td>2015</td>
+                        <td>Univercidad Nacional General Sarmiento</td>
+                        <td>Los Polvorines</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>2018</td>
+                        <td>Univercidad Nacional Jose.C Paz</td>
+                        <td>Jose.C Paz</td>
+                        <td>Si</td>
+                    </tr>
+                    <tr>
+                        <td>2019</td>
+                        <td>Next University</td>
+                        <td>Online</td>
+                        <td>no</td>
+                    </tr>
+                </table>
+            </article>
+            <article>
+                <h1>Agregaar Estudios</h1>
+                <form action="">
+                    <p>
+                        <label for="annio">Selecciona el año: </label>
+                        <br>
+                        <select name="annio">
+                            <option value="2019">2019</option>
+                            <option value="2018">2018</option>
+                            <option value="2017">2017</option>
+                            <option value="2016">2016</option>
+                            <option value="2015">2015</option>
+                            <option value="2014">2014</option>
+                            <option value="2013">2013</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="Institucion">Institución:</label>
+                        <input type="text" placeholder="ingrese institucion" size="50px" name="institucion" required>
+                    </p>
+                    <p>
+                        <label for="lugar">Lugar:</label>
+                        <input type="text" placeholder="ingrese lugar"size="80" maxlength="80"  name="lugar" required>
+                    </p>
+                    <p>
+                        <label for="culmino">¿Culminó? </label>
+                        <br>
+                        <input type="radio" name="culmino" value="Si" checked> Si
+                        <br>
+                        <input type="radio" name="culmino" value="No"> No
+                    </p>
+                    <p>
+                        <input type="submit" value="Enviar">
+                    </p>
+                </form>
+            </article>
+        </section>
+        <footer>
+            <ul>
+                <li><strong>E-mail: </strong>15cgdominguez@gmail.com</li>
+                <li><strong>Teléfono: </strong>+59-1151624725</li>
+                <li><strong>Facebook: </strong><a href="https://www.facebook.com/cristian.dominguez.3939">Cristian.G Dominguez</a></li>
+            </ul>
+        </footer>
+    </body>
+</html>

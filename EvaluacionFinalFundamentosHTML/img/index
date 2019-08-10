@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <meta name="author" content="Spyros Capetanopulos Demarco">
+        <meta name="keywords" content="html,imagenes,videos">
+        <meta name="description" content="Evaluacion final fundamentos basicos de html">
+        <title>Curriculum Vitae</title>
+    </head>
+    <body>
+        <header>
+            <svg width="200px" height="200px">
+            <image svg width="200" height="200" xlink:href="img/logo.svg" >
+            </svg>
+            <h1>Curriculum Vitae</h1>
+        </header>
+        <section>
+            <article>
+                <h2>Datos Personales</h2>
+                <h3><strong>Nombres: </strong>Spyros.</h3>
+                <h3><strong>Apellidos: </strong>Capetanopulos Demarco.</h3>
+                <h3><strong>Fecha de nacimiento: </strong>18 de Octubre de 1989.</h3>
+                <h3><strong>Lugar de nacimiento: </strong>Santiago, RM, Chile.</h3>
+            </article>
+        </section>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="educacion.html">Educación</a></li>
+                <li><a href="experiencia.html">Experiencia</a></li>
+            </ul>
+        </nav>
+        <section>
+            <article>
+                <h2>Información personal</h2>
+                <img src="img/fotoPerfil.jpg" alt="fotoPerfil" title="Foto del Perfil" width="712px" height="300px" border="2px"/>
+                <ul>
+                    <li><strong>Edad:</strong>27</li>
+                    <li><strong>Residencia actual:</strong>Independencia, RM, Chile</li>
+                </ul>
+            </article>
+            <article>
+              <h2>Información de Perfil</h2>
+              <p>
+                Dentro de mis proyectos profesionales se encuentra en demostrar mis conocimientos y aportarlos a nuevos lugares de trabajo.<br>
+                Como también aprender diariamente de estas experiencias e ir mejorando mis habilidades.
+              </p>
+              <ul>
+                <li><strong>Idiomas: </strong>
+                  <ol>
+                    <li>Español</li>
+                    <li>Ingles(Intermedio)</li>
+                  </ol>
+                </li>
+              </ul>
+            </article>
+        </section>
+        <footer>
+          <p>@Derechos Reservados</p>
+            <ul>
+                <li><strong>E-mail: </strong>spyros.capetanopulos@gmail.com</li>
+                <li><strong>Teléfono: </strong>+56 9 56583074</li>
+                <li><strong>Facebook: </strong><a href="https://www.facebook.com/The.Sone">Spyros Capetanopulos</a></li>
+            </ul>
+        </footer>
+    </body>
+</html>
